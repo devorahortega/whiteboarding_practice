@@ -14,3 +14,29 @@
   - shovel in both whole arrays into the array
   - return new array
 =end
+
+# 5.   Write a function that takes in an array of strings and returns all the pairs of strings that have a total length of 8 characters.
+
+=begin
+  - input: [ "apple", "carrot", "breaddtw", "pineappl"]
+  - output: ["breaddtw", "pineappl"]
+
+  - make a function - array
+  - measure the lenght of the strings within the array
+  - return the strings that have 8 characters
+  
+=end
+
+# def eight_letters(array)
+#   i = 0
+#   a = []
+#   while i < array.length
+#     if array[i].length == 8
+#       a << array[i]
+#     end
+#     i += 1
+#   end
+#   return a
+# end
+
+# p eight_letters(["apple", "carroter", "breaddtw", "pineappl"])
