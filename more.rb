@@ -40,3 +40,57 @@
 # end
 
 # p eight_letters(["apple", "carroter", "breaddtw", "pineappl"])
+
+# Write a function that takes in two strings and returns all the locations of the second string within the first string.
+
+=begin
+    - input: 
+    - 1, 2
+
+    - write a function
+    - check if string2 is in string1
+    - return true/false 
+
+    - write a function
+    - while loop in the string
+    - print indexes of string characters
+
+    - write a function
+    - if string1[index] = string2
+      - p index
+    
+=end
+
+# def string_true(string1, string2)
+#   if string1.include? (string2)
+#     p true
+#   else
+#     p false
+#   end
+# end
+
+# string_true("orange", "p")
+
+# def indexes(string)
+#   i = 0
+#   while i < string.length
+#     p i
+#     i += 1
+#   end
+# end
+
+# indexes("apple")
+
+# def contains(string1, string2)
+#   i = 0
+#   array = []
+#   while i < string1.length
+#     if string1[i].downcase == string2.downcase
+#       array << i
+#     end
+#     i += 1
+#   end
+#   return array
+# end
+
+# p contains("apple", "p")
