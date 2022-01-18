@@ -48,3 +48,5 @@ array1.each do |post_hash|
 end
 
 pp array1
+
+# REMINDER - USE METHODS AND ASK INTERVIEW TO CONFIRM
